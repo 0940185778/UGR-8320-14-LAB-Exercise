@@ -34,7 +34,8 @@ class MyHomePage extends ConsumerWidget {
     var count = ref.watch(counterStateProvider);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Riverpod Counter'),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        title: const Text('Flutter Riverod Counter'),
       ),
       body: Center(
           child: Column(
